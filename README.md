@@ -29,11 +29,16 @@ Make an index like this.
 
 ```
 $ python make_index.py --owner jerryjliu --repo llama_index
+Making index for repo: jerryjliu/llama_index with main branch
+Filtering directories: ['README.md', 'docs']
+Filtering file extensions: ['.md']
+...
+Index saved to index.json
 ```
 
 ### Ask abount GitHub repo
 
-```
+```$$
 $ python chat.py
 Loading index...
 Question: What is llama_index?
