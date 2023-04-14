@@ -21,13 +21,14 @@ pip install -r requirements.txt
 ### Set environment variables
 
 - `OPENAI_API_KEY`: Your API Key for Open AI
+- `GITHUB_TOKEN`: GitHub "classic" psersonal token with the `repo` scope. See [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) for instructions.
 
 ### Index GitHub repo
 
 Make an index like this.
 
 ```
-python make_index.py --repo-url https://github.com/jerryjliu/llama_index
+python make_index.py --owner jerryjliu --repo llama_index
 ```
 
 ### Ask with the GitHub repo
