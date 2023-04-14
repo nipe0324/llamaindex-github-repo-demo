@@ -27,7 +27,7 @@ pip install -r requirements.txt
 Make an index like this.
 
 ```
-python make_index.py --repo https://github.com/jerryjliu/llama_index
+python make_index.py --repo-url https://github.com/jerryjliu/llama_index
 ```
 
 ### Ask with the GitHub repo
