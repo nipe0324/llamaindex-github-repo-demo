@@ -28,11 +28,19 @@ pip install -r requirements.txt
 Make an index like this.
 
 ```
-python make_index.py --owner jerryjliu --repo llama_index
+$ python make_index.py --owner jerryjliu --repo llama_index
 ```
 
-### Ask with the GitHub repo
+### Ask abount GitHub repo
 
 ```
-python ask.py --query "What abount llama_index repo?"
+$ python chat.py
+Loading index...
+Question: What is llama_index?
+Answer: LlamaIndex is a project that provides a central interface to connect your LLM's (Language Models) with external data. It offers data connectors to existing data sources and data formats, provides indices over unstructured and structured data for use with LLMs, provides an interface to query the index, and offers a comprehensive toolset trading off cost and performance.
+
+Question: how to install llama-index?                   
+Answer: To install LlamaIndex, run the following command: 
+
+`pip install llama-index`
 ```
