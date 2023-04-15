@@ -38,7 +38,7 @@ Index saved to index.json
 
 ### Ask abount GitHub repo
 
-```$$
+```
 $ python chat.py
 Loading index...
 Question: What is llama_index?
